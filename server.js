@@ -2,7 +2,7 @@ const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
 
-const post = process.env.POST || 3000;
+const post = process.env.PORT || 3000;
 
 const app = express();
 
